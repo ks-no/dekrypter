@@ -1,6 +1,6 @@
 # CMS Dekryptering
 
-Et lite program som dekrypterer files kryptert med CMS kryptering
+Et lite program som dekrypterer filer kryptert med CMS kryptering
 
 # Intallasjon og bruk
 
