@@ -14,14 +14,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.54</version>
-        </dependency>
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcpkix-jdk15on</artifactId>
-            <version>1.54</version>
+            <groupId>no.ks.fiks</groupId>
+            <artifactId>kryptering</artifactId>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>commons-cli</groupId>
