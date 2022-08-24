@@ -2,7 +2,7 @@
 
 Et lite program som dekrypterer filer kryptert med CMS kryptering
 
-# Intallasjon og bruk
+# Installasjon og bruk
 
 Programmet krever java 8 med unlimited crypto.
 
