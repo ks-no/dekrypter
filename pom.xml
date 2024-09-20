@@ -15,6 +15,10 @@
         <commons-cli.version>1.5.0</commons-cli.version>
         <commons-io.version>2.17.0</commons-io.version>
         <junit.version>4.13.2</junit.version>
+        
+        <maven-dependency-plugin.version>3.8.0</maven-dependency-plugin.version>
+        <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+        <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
     </properties>
     <licenses>
         <license>
@@ -53,7 +57,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>${maven-dependency-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>copy-dependencies</id>
@@ -74,7 +78,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>${maven-jar-plugin.version}</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -88,7 +92,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.7.1</version>
+                <version>${maven-assembly-plugin.version}</version>
                 <configuration>
                     <descriptors>
                         <descriptor>src/assembly/bin.xml</descriptor>
