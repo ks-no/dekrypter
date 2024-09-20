@@ -4,7 +4,7 @@ Et lite program som dekrypterer filer kryptert med CMS kryptering
 
 # Installasjon og bruk
 
-Programmet krever java 8 med unlimited crypto.
+Programmet krever Java 17 eller nyere.
 
 * mvn package
 * pakk opp target/dekrypter-1.0-dist.zip til egnet mappe
