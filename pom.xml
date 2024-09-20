@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <kryptering.version>1.2.0</kryptering.version>
-        <commons-cli.version>1.5.0</commons-cli.version>
+        <commons-cli.version>1.9.0</commons-cli.version>
         <commons-io.version>2.17.0</commons-io.version>
         <junit.version>4.13.2</junit.version>
         
